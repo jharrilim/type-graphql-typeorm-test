@@ -1,0 +1,27 @@
+{
+  "name": "type-graphql-typeorm-test",
+  "version": "1.0.0",
+  "description": "test type-graphql-typeorm example",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.4.8",
+    "graphql": "^14.0.7",
+    "pg": "^7.9.0",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^0.17.0",
+    "typedi": "^0.8.0",
+    "typeorm": "^0.2.15",
+    "typeorm-typedi-extensions": "^0.2.3"
+  },
+  "devDependencies": {
+    "@types/graphql": "^14.0.7",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.3333"
+  }
+}
